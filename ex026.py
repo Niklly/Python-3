@@ -1,0 +1,6 @@
+frase = str(input('Digite uma frase: ')).strip()
+new = frase.lower()
+print('A letra A aparece {} vez(es) na frase'.format(new.count('a')))
+print('A primeira letra A aparece na posição {}'.format(new.find('a')+1))
+print('A última letra A apareceu na posição {}'.format(new.rfind('a')+1))
+#nesse comando r.find vai fazer o python procurar a última letra a partir da direção right(direito)
